@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.signoutbtn
+{
+color: white;
+}
+.pieChart
+{
+  height:350px;
+  width:350px;
+  position:absolute;
+  left:65%;
+  top:10%;
+}
+.parallax {
+    /* The image used */
+    background-image: url("https://static.pexels.com/photos/70497/pexels-photo-70497.jpeg");
+
+    /* Set a specific height */
+    min-height: 800px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pStyle
+{
+  height:1000px;background-color:#ff8000;font-size:36px;
+}
